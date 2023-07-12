@@ -1,0 +1,28 @@
+class Macaco:
+    def __init__(self, nome):
+        self.nome = nome
+        self.bucho = []
+
+    def comer(self, alimento):
+        self.bucho.append(alimento)
+
+    def verBucho(self):
+        print(f"{self.nome} tem no bucho: {', '.join(self.bucho)}")
+
+    def digerir(self):
+        self.bucho.clear()
+        print(f"{self.nome} digeriu tudo!")
+        class Macaco:
+    def __init__(self, nome):
+        self.nome = nome
+        self.bucho = []
+
+    def comer(self, alimento):
+        self.bucho.append(alimento)
+
+    def verBucho(self):
+        print(f"{self.nome} tem no bucho: {', '.join(self.bucho)}")
+
+    def digerir(self):
+        self.bucho.clear()
+        print(f"{self.nome} digeriu tudo!")
